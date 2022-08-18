@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PricingPage = () => {
-    return <div>Pricing</div>;
+    return <div>Waitlist</div>;
 };
 
-export default PricingPage;
+export default WaitlistPage;

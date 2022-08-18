@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //Pages
 import Home from './pages/Home';
 import SignUp from './pages/SignupPage';
-import Pricing from './pages/PricingPage';
+import Waitlist from './pages/WaitlistPage';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route path ="/" exact component = {Home}></Route>
         <Route path ="/sign" exact component = {SignUp}></Route>
-        <Route path ="/Pricing" exact component = {Pricing}></Route>
+        <Route path ="/WaitlistPage" exact component = {Waitlist}></Route>
       </Switch>
     </Router>
 
