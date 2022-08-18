@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PricingPage = () => {
+const WaitlistPage = () => {
     return <div>Waitlist</div>;
 };
 
