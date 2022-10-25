@@ -21,10 +21,10 @@ export default function Footer({ contact_ref }){
                     <a href="http://www.instagram.com"> <img className="w-16 h-16 md:w-65 md:h-65" src={instagram} alt="instagram" /></a>
                 </li>
                 <li className="__social_links">
-                    <a href="http://www.twitter.com"> <img className="w-16 h-16 md:w-65 md:h-65" src={twitter} alt="twitter" /></a>
+                    <a href="https://twitter.com/blinxhq?s=21&t=MtdmscuNMRUnnprczwkoWA"> <img className="w-16 h-16 md:w-65 md:h-65" src={twitter} alt="twitter" /></a>
                 </li>
                 <li className="__social_links">
-                    <a href="http://www.linkedin.com"> <img className="w-16 h-16 md:w-65 md:h-65" src={linkedin} alt="linkedin" /></a>
+                    <a href="https://www.linkedin.com/company/blinxhq/"> <img className="w-16 h-16 md:w-65 md:h-65" src={linkedin} alt="linkedin" /></a>
                 </li>
             </ul>
         </footer>
