@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/BlinxCode/blinx-webapp/static/css/main.fd62457e.css",
-    "main.js": "/BlinxCode/blinx-webapp/static/js/main.ff73bf38.js",
-    "static/js/787.3847e758.chunk.js": "/BlinxCode/blinx-webapp/static/js/787.3847e758.chunk.js",
-    "static/media/mockup-1.svg": "/BlinxCode/blinx-webapp/static/media/mockup-1.313645c1a62abeab2d35e29c3d97fca5.svg",
-    "static/media/mockup-2.svg": "/BlinxCode/blinx-webapp/static/media/mockup-2.ac26feb21588e48b669720bf5cabd843.svg",
-    "static/media/logo.svg": "/BlinxCode/blinx-webapp/static/media/logo.e9b07fe300fbb9d761dd3cf51184c024.svg",
-    "static/media/instagram.svg": "/BlinxCode/blinx-webapp/static/media/instagram.733236b59aec9619c6764ab96d45fff0.svg",
-    "static/media/twitter.svg": "/BlinxCode/blinx-webapp/static/media/twitter.1bae6c918c9dea77d0daa7f51a912064.svg",
-    "index.html": "/BlinxCode/blinx-webapp/index.html",
-    "static/media/youtube.svg": "/BlinxCode/blinx-webapp/static/media/youtube.33d7f1e082ddd7162c60ee4f3cd1af69.svg",
-    "static/media/BG.svg": "/BlinxCode/blinx-webapp/static/media/BG.0d3dfadb76221bf54193.svg",
-    "static/media/facebook.svg": "/BlinxCode/blinx-webapp/static/media/facebook.ca691bee45c2e7564170230f44ab5561.svg",
-    "main.fd62457e.css.map": "/BlinxCode/blinx-webapp/static/css/main.fd62457e.css.map",
-    "main.ff73bf38.js.map": "/BlinxCode/blinx-webapp/static/js/main.ff73bf38.js.map",
-    "787.3847e758.chunk.js.map": "/BlinxCode/blinx-webapp/static/js/787.3847e758.chunk.js.map"
+    "main.css": "/blinx-webapp/static/css/main.90f89fed.css",
+    "main.js": "/blinx-webapp/static/js/main.90346e9a.js",
+    "static/js/787.3847e758.chunk.js": "/blinx-webapp/static/js/787.3847e758.chunk.js",
+    "static/media/mockup-1.svg": "/blinx-webapp/static/media/mockup-1.313645c1a62abeab2d35e29c3d97fca5.svg",
+    "static/media/mockup-2.svg": "/blinx-webapp/static/media/mockup-2.ac26feb21588e48b669720bf5cabd843.svg",
+    "static/media/logo.svg": "/blinx-webapp/static/media/logo.e9b07fe300fbb9d761dd3cf51184c024.svg",
+    "static/media/instagram.svg": "/blinx-webapp/static/media/instagram.733236b59aec9619c6764ab96d45fff0.svg",
+    "static/media/twitter.svg": "/blinx-webapp/static/media/twitter.1bae6c918c9dea77d0daa7f51a912064.svg",
+    "static/media/youtube.svg": "/blinx-webapp/static/media/youtube.33d7f1e082ddd7162c60ee4f3cd1af69.svg",
+    "index.html": "/blinx-webapp/index.html",
+    "static/media/BG.svg": "/blinx-webapp/static/media/BG.0d3dfadb76221bf54193.svg",
+    "static/media/facebook.svg": "/blinx-webapp/static/media/facebook.ca691bee45c2e7564170230f44ab5561.svg",
+    "main.90f89fed.css.map": "/blinx-webapp/static/css/main.90f89fed.css.map",
+    "main.90346e9a.js.map": "/blinx-webapp/static/js/main.90346e9a.js.map",
+    "787.3847e758.chunk.js.map": "/blinx-webapp/static/js/787.3847e758.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd62457e.css",
-    "static/js/main.ff73bf38.js"
+    "static/css/main.90f89fed.css",
+    "static/js/main.90346e9a.js"
   ]
 }
