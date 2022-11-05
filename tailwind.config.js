@@ -12,6 +12,7 @@ module.exports = {
     colors: {
       'alt-primary': '#1aa6b71a',
       'black':'#002D40',
+      'danger': '#eb5757',
       'primary': '#1AA6B7',
       'white': '#F8FAFF',
     },

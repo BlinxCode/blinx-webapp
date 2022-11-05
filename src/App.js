@@ -1,4 +1,4 @@
-import { useRef  } from 'react';
+import { useRef, useState  } from 'react';
 import './App.css';
 
 // components
@@ -10,14 +10,27 @@ import WaitlistForm from './components/WaitlistForm';
 import mockup1 from './assets/mockup-1.svg';
 import mockup2 from './assets/mockup-2.svg';
 
+// utils
+import api from './utils/api';
+
 function App() {
   const contact_ref = useRef(null);
   const form_ref = useRef(null);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const [ loading, set_loading ] = useState(false);
+  const [ error, set_error ] = useState(false)
 
-    console.log(e);
+  const handleSubmit = async (values, reset_form) => {
+    set_loading(true)
+    try {
+      await api.submit(values)
+      reset_form()
+
+    } catch (error) {
+      set_error(true)
+    } finally {
+      set_loading(false)
+    }
   }
 
   const scroll_to_form = () => {
@@ -67,6 +80,9 @@ function App() {
         <div className='__form md:w-[32rem] bg-white px-8 py-10'>
           <WaitlistForm 
             handleSubmit={handleSubmit}
+            loading={loading}
+            error={error}
+            set_error={set_error}
           />
         </div>
       </section>
