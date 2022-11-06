@@ -22,15 +22,12 @@ function App() {
 
   const handleSubmit = async (values, reset_form) => {
     set_loading(true)
-    try {
       await api.submit(values)
-      reset_form()
-
-    } catch (error) {
-      set_error(true)
-    } finally {
-      set_loading(false)
-    }
+        .then(res=> {
+          reset_form()
+        })
+        .catch(()=> set_error(true))
+        .finally (()=> set_loading(false))
   }
 
   const scroll_to_form = () => {
@@ -53,7 +50,7 @@ function App() {
 
         <div className='flex-1 mb-16 md:mb-0'>
           <h1 className='text-5xl text-white font-bold text-4xl md:text-6xl mb-8'> Automate bills & payments like never before </h1>
-          <div className='flex items-center bg-white w-96 p-2 rounded-xl'>
+          <div className='flex items-center bg-white p-2 rounded-xl sm:w-full md:w-96'>
             <div className='text-center px-6 py-4 w-52 bg-primary rounded-xl cursor-pointer' onClick={scroll_to_form}>
               <p className='font-medium text-white'> Join the waitlist </p>
             </div>

@@ -2,13 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore,collection } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCFm3Hvvqb3BLyFir_8_TCFr0DBxZNCV_c",
-    authDomain: "blinx-23dab.firebaseapp.com",
-    projectId: "blinx-23dab",
-    storageBucket: "blinx-23dab.appspot.com",
-    messagingSenderId: "718040819489",
-    appId: "1:718040819489:web:dc4f963b5c4ad1d69bc060",
-    measurementId: "G-6GBN5YS0WY"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_API_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
 
 //   init firebase
